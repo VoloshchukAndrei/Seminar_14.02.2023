@@ -1,11 +1,15 @@
-﻿Console.Write("Введите первое число: ");
-int numberA = int.Parse(Console.ReadLine()!);
-Console.Write("Введите второе число: ");
-int numberB = int.Parse(Console.ReadLine()!);
+﻿Console.Write("Введите число a: ");
+int a = int.Parse(Console.ReadLine()!);
+Console.Write("Введите число b: ");
+int b = int.Parse(Console.ReadLine()!);
 
-if((numberA / numberB == numberB) || (numberB / numberA == numberA)) // || - или
+if(a * a == b)
 {
-    Console.Write("Одно число является квадратом другого");
+    Console.Write("b квадрат a");
+}
+else if (Math.Pow(b, 2) == a)
+{
+    Console.Write("a квадрат b");
 }
 else
 {
