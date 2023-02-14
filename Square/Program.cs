@@ -3,7 +3,7 @@ int numberA = int.Parse(Console.ReadLine()!);
 Console.Write("Введите второе число: ");
 int numberB = int.Parse(Console.ReadLine()!);
 
-if((numberA / numberB == numberB) || (numberB / numberA == numberA))
+if((numberA / numberB == numberB) || (numberB / numberA == numberA)) // || - или
 {
     Console.Write("Одно число является квадратом другого");
 }
